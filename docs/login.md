@@ -9,21 +9,21 @@ Este endpoint tiene la funcion de autenticar el mail y la contraseña de un usua
 **Datos requeridos**
 ```json
 {
-  "email": [email: String],
-  "password": [password: String]
+  "email": "[email: String]",
+  "password": "[password: String]"
 }
 ```
 
 **Respuesta correcta**
 ```json
 {
-  ok: true,
+  "ok": true,
   "user": {
-    "_id": [String],
-    "firstName": [String],
-    "lastName": [String],
-    "email": [String],
+    "_id": "[String]",
+    "firstName": "[String]",
+    "lastName": "[String]",
+    "email": "[String]",
   },
-  "token": [String]
+  "token": "[String]"
 }
 ```
