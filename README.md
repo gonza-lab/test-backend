@@ -24,3 +24,4 @@ Los endpoints privados requieren token. El token se envia por medio de `Headers`
 - [Renew token](./docs/renew.md): `POST /api/auth/token`
 - [Get user](./docs/get-user.md): `GET /api/user`
 - [Update user](./docs/update-user.md): `PUT /api/user`
+- [Delete user](./docs/delete-user.md): `DELETE /api/user`
