@@ -8,6 +8,8 @@ Para poner a funcionar el servidor se debe tener un archivo .env con los siguien
 - **DB_CNN**: El URI para conectarse a la base de datos. Ejemplo de URI: `mongodb+srv://MERN_USER:<password>@cluster0.o8yj6.mongodb.net/<dbname>?retryWrites=true&w=majority`
 - **JWT_PRIVATE_KEY**: Clave secreta para encriptar los tokens. Puede ser aleatoria.
 
+Una vez preparado el .env, para ejecturalo con nodemon `npm run dev`.
+
 # Endpoints Publicos
 
 Los endpoints abiertos no requieren token.
