@@ -1,16 +1,16 @@
 # API Docs
 
-# Endpoints Publicos 
+# Endpoints Publicos
 
 Los endpoints abiertos no requieren token.
 
-* [Login](./docs/login.md): `POST /api/auth/login`
-* [Signup](): `POST /api/auth/signup`
+- [Login](./docs/login.md): `POST /api/auth/login`
+- [Signup](./docs/signup.md): `POST /api/auth/signup`
 
 # Endpoint Privados
 
-Los endpoints privados requieren token. El token se envia por medio de `Headers` dentro del campo `x-token`. 
+Los endpoints privados requieren token. El token se envia por medio de `Headers` dentro del campo `x-token`.
 
-* [Renew token](): `POST /api/auth/token`
-* [Get user](): `GET /api/user`
-* [Update user](): `PUT /api/user`
+- [Renew token](./docs/renew.md): `POST /api/auth/token`
+- [Get user](./docs/get-user.md): `GET /api/user`
+- [Update user](./docs/update-user.md): `PUT /api/user`

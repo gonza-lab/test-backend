@@ -2,11 +2,12 @@
 
 Este endpoint tiene la funcion de autenticar el mail y la contraseña de un usuario.
 
-* URL: ``
-* Method: `
-* Autenticacion requerida: 
+* URL: `/api/auth/login`
+* Method: `POST`
+* Autenticacion requerida: No 
 
 **Datos requeridos**
+* Body 
 ```json
 {
   "email": "[email: String]",
